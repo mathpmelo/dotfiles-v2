@@ -1,0 +1,16 @@
+# vim: filetype=sh
+#template:
+#alias name='command'
+alias upalias='source ~/.zshrc'
+alias la='ls -la'
+alias d='cd ~/Documents && ls -a'
+alias D='cd ~/Downloads && ls -a'
+alias m='cd ~/Music && ls -a'
+alias pp='cd ~/Pictures && ls -a'
+alias vv='cd ~/Videos && ls -a'
+alias cfa='vim ~/.bash_shortcuts'
+alias cfz='vim ~/.zshrc'
+alias please='sudo $(history -p !!)'
+#k8s
+alias k='kubectl'
+
